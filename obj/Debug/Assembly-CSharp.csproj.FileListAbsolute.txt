@@ -1,0 +1,12 @@
+G:\oscar\Documents\repos\unity-course\Number Wizard\Temp\bin\Debug\Assembly-CSharp.dll
+G:\oscar\Documents\repos\unity-course\Number Wizard\Temp\bin\Debug\Assembly-CSharp.pdb
+G:\oscar\Documents\repos\unity-course\Number Wizard\Temp\bin\Debug\UnityEditor.dll
+G:\oscar\Documents\repos\unity-course\Number Wizard\Temp\bin\Debug\UnityEngine.dll
+G:\oscar\Documents\repos\unity-course\Number Wizard\Temp\bin\Debug\UnityEngine.UI.dll
+G:\oscar\Documents\repos\unity-course\Number Wizard\Temp\bin\Debug\Mono.Cecil.dll
+G:\oscar\Documents\repos\unity-course\Number Wizard\Temp\bin\Debug\nunit.framework.dll
+G:\oscar\Documents\repos\unity-course\Number Wizard\Temp\bin\Debug\Unity.DataContract.dll
+G:\oscar\Documents\repos\unity-course\Number Wizard\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+G:\oscar\Documents\repos\unity-course\Number Wizard\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+G:\oscar\Documents\repos\unity-course\Number Wizard\obj\Debug\Assembly-CSharp.dll
+G:\oscar\Documents\repos\unity-course\Number Wizard\obj\Debug\Assembly-CSharp.pdb

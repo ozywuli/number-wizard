@@ -2,13 +2,20 @@
 using System.Collections;
 
 public class NumberWizard : MonoBehaviour {
-	int max = 1000;
-	int min = 1;
-	int guess = 500;
+	int max;
+	int min;
+	int guess;
 
 	// Use this for initialization
 	void Start () {
-		max = max + 1;
+		StartGame ();
+
+	}
+
+	void StartGame() {
+		max = 1000;
+		min = 1;
+		guess = 500;
 
 		print ("Welcome to Number Wizard");
 		print ("Pick a number in your head but don't tell me");
@@ -19,23 +26,31 @@ public class NumberWizard : MonoBehaviour {
 		print ("Is the number higher or lower than " + guess + "?");
 		print ("Up = higher, down = lower, return = equal");
 
+		max = max + 1;
+	}
+
+	void NextGuess() {
+		guess = (max + min) / 2;
+		print ("Higher or lower than " + guess);		
+
+		print ("Is the number higher or lower than " + guess + "?");
+		print ("Up = higher, down = lower, return = equal");
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		// `ctrl + '` will open the docs
 		if (Input.GetKeyDown(KeyCode.UpArrow)) {
-			// print ("up key was pressed");
 			min = guess;
-			guess = (max + min) / 2;
-			print ("Higher or lower than " + guess);
+			NextGuess ();
 		} else if (Input.GetKeyDown(KeyCode.DownArrow)) {
-			// print ("down key was pressed");
 			max = guess;
-			guess = (max + min) / 2;
-			print ("Higher or lower than " + guess);
+			NextGuess ();
 		} else if (Input.GetKeyDown(KeyCode.Return)) {
 			print ("I won!");
+			print ("====================");
+			StartGame ();
+
 		}
 	}
 }
